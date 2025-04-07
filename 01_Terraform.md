@@ -128,6 +128,4 @@ Alternatively, you can install Terraform using the package manager for your oper
 ## Conclusion
 
 By using Terraform, you can automate the creation and management of infrastructure in a consistent, repeatable, and version-controlled manner, which is the essence of Infrastructure as Code. It's a powerful tool that works across multiple cloud providers, allowing you to manage your infrastructure resources in a unified way.
-```
 
-This markdown document provides a clear and structured explanation of Terraform, its comparison with AWS CloudFormation, and a detailed step-by-step guide for setting it up and using it.
