@@ -4,6 +4,17 @@ Here’s a markdown guide on how to create a Virtual Private Cloud (VPC) in AWS 
 
 # **AWS VPC Setup with Terraform**
 
+This guide outlines how to create a Virtual Private Cloud (VPC) in AWS using Terraform. It includes the following steps:
+
+Create a VPC.
+
+Create a public and private subnet.
+
+Attach an Internet Gateway to the VPC.
+
+Set up routing tables for public and private subnets.
+
+
 This guide demonstrates how to use Terraform to create a **Virtual Private Cloud (VPC)** in AWS with public and private subnets, an Internet Gateway, and route tables.
 
 ## **1. Terraform Configuration Files**
@@ -235,6 +246,18 @@ drwxr-xr-x 3 user user 4096 Apr  7 10:01 .terraform
 -rw-r--r-- 1 user user  150 Apr  7 10:01 .terraform.lock.hcl
 -rw-r--r-- 1 user user   40 Apr  7 10:01 terraform.tfstate
 ```
+Explanation of ls -lart
+ls – List directory contents.
+
+-l – Long listing format (shows permissions, owner, group, file size, and time of last modification).
+
+-a – Shows hidden files (those starting with a dot).
+
+-r – Reverses the order of listing (from newest to oldest).
+
+-t – Sorts by modification time, with the newest files first.
+
+The output would include your Terraform files (provider.tf, vpc.tf, outputs.tf), along with metadata like .terraform.lock.hcl (locking the provider versions) and the state file (terraform.tfstate), which stores the current state of your infrastructure.
 
 ---
 
