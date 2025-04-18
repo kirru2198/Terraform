@@ -2,8 +2,6 @@
 
 <img width="658" alt="image" src="https://github.com/user-attachments/assets/0842dfc4-b57c-455d-ba75-b76badf2f364" />
 
-Absolutely! Here's a clean, structured, and **easy-to-understand** version of your spoken explanation for notes — this would work great for study or documentation:
-
 ---
 
 ## 🚀 How Terraform Works (Creating EC2 Instances Example)
