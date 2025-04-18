@@ -114,6 +114,7 @@ ec2-instance.tf         # Your EC2 instance configuration code
 terraform-provider.tf   # AWS provider configuration code
 terraform.tfstate       # Terraform state file (holds resource info)
 ```
+---
 
 ### **State File: `terraform.tfstate`**
 
