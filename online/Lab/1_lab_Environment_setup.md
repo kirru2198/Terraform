@@ -6,6 +6,8 @@
 
 Launch a Linux EC2 instance, create an IAM user with administrative privileges, configure AWS CLI inside the EC2 instance, and install Terraform for infrastructure automation.
 
+<img width="667" alt="image" src="https://github.com/user-attachments/assets/e928fb93-5e3d-4beb-8551-f0da54f7e0df" />
+
 ---
 
 ## 🚀 **Step 1: Launch an EC2 Instance (Amazon Linux)**
