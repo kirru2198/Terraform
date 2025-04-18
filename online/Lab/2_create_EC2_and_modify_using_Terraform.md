@@ -189,6 +189,11 @@ terraform apply --auto-approve
 This will apply the changes (e.g., modifying the instance type) without requiring further confirmation.
 
 ---
+In order to delete a resource we need to run the following command:
+
+```bash
+terraform destroy --auto-approve
+```
 
 ## **8. Summary**
 
