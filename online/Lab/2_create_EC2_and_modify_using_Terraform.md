@@ -151,7 +151,7 @@ To modify the instance type, follow these steps:
 
 But if you run the command **terraform plan** it will shows it want to change instance type from changed to initial one (which is mentioned on tfstate file --because the terraform only believes only over tfstate file)
 
-if you run **terraform apply --auto-approve, it will changes to initial instance type.
+if you run **terraform apply --auto-approve**, it will changes to initial instance type.
 
 ---
 
