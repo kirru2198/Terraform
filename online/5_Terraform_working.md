@@ -125,3 +125,9 @@ resource "aws_vpc" "main" {
 5. Terraform sends API requests using downloaded plugins
 6. Resources get provisioned in the cloud
 ```
+
+<img width="689" alt="image" src="https://github.com/user-attachments/assets/4e169721-c3e1-41fa-a12a-ce01bdfd2bad" />
+
+<img width="465" alt="image" src="https://github.com/user-attachments/assets/fc59fc03-3e5f-424b-a4de-24f54a77ee64" />
+
+
