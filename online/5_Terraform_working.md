@@ -65,6 +65,16 @@ https://registry.terraform.io/
 - Credentials are stored in `~/.aws/credentials` (e.g., `[default]` profile).
 - You define the profile in your Terraform code:
 
+> in order to find see the profile use the following commands:
+> ```bash
+> - pwd
+> - cd .aws
+> - ls
+> - config  credentials  # This is the output of ls command
+> cat config
+> [default] # what AWS credentials === adminstrator access
+> ```
+
 ```hcl
 provider "aws" {
   region  = "us-east-1"
