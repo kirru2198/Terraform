@@ -141,9 +141,21 @@ cat terraform.tfstate | grep instance_type
 
 To modify the instance type, follow these steps:
 
-1. **Stop the Instance**: First, stop the instance to avoid any potential issues while changing the configuration.
+1. **Log in to the AWS Console (Optional)**:
+    - Go to the AWS Console → EC2 → Instances.
+   - **Stop the Instance**: First, stop the instance to avoid any potential issues while changing the configuration.
+   - Select the instance.
+   - Under **Actions > Instance Settings**, choose **Change Instance Type** and select the new instance type.
 
-2. **Modify the Instance Type**: In the `ec2-instance.tf` file, change the instance type. For example:
+2. **Start the Instance**: Start the instance again after modifying the instance type. ===> it will shows the changed instance type on the console 
+
+But if you run the command **terraform plan** it will shows it want to change instance type from changed to initial one (which is mentioned on tfstate file --because the terraform only believes only over tfstate file)
+
+if you run **terraform apply --auto-approve, it will changes to initial instance type.
+
+---
+
+1. **Modify the Instance Type**: In the `ec2-instance.tf` file, change the instance type. For example: (# instance automaticlly stops and starts, no need to manually do all the things)
 
 ```hcl
 resource "aws_instance" "ec2demo" {
@@ -152,16 +164,9 @@ resource "aws_instance" "ec2demo" {
 }
 ```
 
-3. **Log in to the AWS Console (Optional)**:
-   - Go to the AWS Console → EC2 → Instances.
-   - Select the instance.
-   - Under **Actions > Instance Settings**, choose **Change Instance Type** and select the new instance type.
-
-4. **Start the Instance**: Start the instance again after modifying the instance type.
-
 ---
 
-## **7. Apply the Changes with Terraform**
+## **7. Apply the Changes with Terraform** 
 
 After updating the `ec2-instance.tf` file, run the following commands to apply the changes.
 
