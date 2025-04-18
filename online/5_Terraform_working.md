@@ -140,4 +140,5 @@ resource "aws_vpc" "main" {
 
 <img width="465" alt="image" src="https://github.com/user-attachments/assets/fc59fc03-3e5f-424b-a4de-24f54a77ee64" />
 
+Terraform apply creates the API ===> this API goes to the API endpoint ===> this API endpoint is specific to resource ===> this API endpoint reads the API call and checks the access and creates the resorces 
 
