@@ -23,6 +23,9 @@ Launch a Linux EC2 instance, create an IAM user with administrative privileges, 
 7. Select or create a new key pair to SSH into the instance.
 8. Launch the instance and SSH into it.
 
+   > ### Install AWS CLI (if not installed)
+   > - use the following official documentation
+   > - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 ---
 
 ## 👤 **Step 2: Create an IAM User with Admin Access**
