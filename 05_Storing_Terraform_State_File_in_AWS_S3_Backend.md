@@ -1,5 +1,7 @@
 # Storing Terraform State File in AWS S3 Backend
 
+**For this to be happen we already have a existing S3 Bucket in place**.
+
 Terraform allows you to store your state files remotely for collaboration, backup, and to ensure that your infrastructure's state is managed in a secure and consistent way. Using AWS S3 as the backend for your Terraform state file is a recommended practice, especially in team environments or when you want to avoid local file storage of the state.
 
 This guide explains how to configure AWS S3 as the backend for storing Terraform state files.
@@ -38,7 +40,7 @@ terraform {
 ```
 
 - **bucket**: The name of the S3 bucket where your Terraform state file will be stored. This bucket must already exist in your AWS account.
-- **key**: The path within the S3 bucket where the state file will be stored. It’s like a "file name" inside the bucket.
+- **key**: The path within the S3 bucket where the state file will be stored. It’s like a "file name" inside the bucket. (test is the folder inside the Bucket and terraform.tfstate is the actual file)
 - **region**: The AWS region where the S3 bucket is located.
 
 ---
