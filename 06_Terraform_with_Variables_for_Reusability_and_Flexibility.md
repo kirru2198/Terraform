@@ -16,6 +16,8 @@ Variables are defined in `variables.tf` and can be referenced anywhere in your c
 - **`ec2-instance.tf`**: Contains the EC2 instance definition.
 - **`security-group.tf`**: Contains the security group definition that allows HTTP and SSH traffic.
 
+<img width="474" alt="image" src="https://github.com/user-attachments/assets/f15b79f8-0b4f-420e-8df0-8198c3df30a6" />
+
 ---
 
 ## **2. Define Variables**
