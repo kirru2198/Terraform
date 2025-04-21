@@ -18,6 +18,8 @@ Variables are defined in `variables.tf` and can be referenced anywhere in your c
 
 <img width="474" alt="image" src="https://github.com/user-attachments/assets/f15b79f8-0b4f-420e-8df0-8198c3df30a6" />
 
+<img width="145" alt="image" src="https://github.com/user-attachments/assets/ba394fe7-a1a1-4dfb-a34c-328f92518423" />
+
 ---
 
 ## **2. Define Variables**
